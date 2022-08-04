@@ -1,16 +1,22 @@
-inteiro n1,n2
-	
-	funcao inicio()
-	{
-		escreva("nDigite um número: ")
-		leia(n1)
-		escreva("\nDigite outro número: ")
-		leia(n2)
+{
+real altura1, altura2
+cadeia nome1, nome2
+funcao inicio()
+{
+    escreva("digite sua altura")
+    leia(altura1)
+    escreva("digite seu nome")
+    leia(nome1)
+    escreva("digite sua altura")
+    leia(altura2)
+    escreva("digite seu nome")
+    leia(nome2)
+
+    se(altura1 > altura2) {
+    	 escreva("o maior é:"+nome1+ altura1)
+    }
+    senao{escreva("o maior é:"+nome2+ altura2)
+    }
 		
-		se(n1 >n2) {
-		escreva("\nO maior numero é:"+ n1+ "\nO menor número é:"+n2)
-		}
-		senao se (n1 < n2) {
-			escreva("\nO maior numero é"+ n2 +"\nO menor número é: " +n1)
-		}
-	}
+	
+}}
