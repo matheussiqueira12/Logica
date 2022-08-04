@@ -1,0 +1,16 @@
+inteiro n1,n2
+	
+	funcao inicio()
+	{
+		escreva("nDigite um número: ")
+		leia(n1)
+		escreva("\nDigite outro número: ")
+		leia(n2)
+		
+		se(n1 >n2) {
+		escreva("\nO maior numero é:"+ n1+ "\nO menor número é:"+n2)
+		}
+		senao se (n1 < n2) {
+			escreva("\nO maior numero é"+ n2 +"\nO menor número é: " +n1)
+		}
+	}
