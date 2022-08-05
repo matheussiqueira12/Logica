@@ -1,0 +1,16 @@
+bibiotecas (raiz)
+
+
+inclua biblioteca Matematica
+real num, raiz
+	
+	funcao inicio()
+	{
+		escreva("Entre com um número postivo:\n")
+		leia(num)
+
+		raiz = Matematica.raiz (num,2.0)
+
+		escreva("A raiz quadrada de " + num + " é " + raiz)
+	}
+}
