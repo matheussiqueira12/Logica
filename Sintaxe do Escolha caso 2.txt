@@ -1,0 +1,32 @@
+
+
+programa
+{
+	caracter menu
+	 
+	
+	funcao inicio()
+	{
+		escreva("Escolha uma opção:\n")
+		escreva("1. abrir\n")
+		escreva("2. salva\n")
+		escreva("3. Fecha\n")
+		leia(menu)
+
+			escolha(menu) {
+				caso '1' :
+					escreva("o programa será abrir.\n")
+					pare
+			    caso '2' :
+					escreva("o arquivo será salvo.\n")	
+					pare
+				caso '3':
+					escreva("Fechado a aplicativo.Inté\n")
+					pare
+				caso contrario:
+				escreva("opção incorreta.\n")   	 					
+			}
+
+			
+	}
+}
