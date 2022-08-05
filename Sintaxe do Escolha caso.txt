@@ -1,0 +1,22 @@
+Sintaxe do Escolha caso 
+
+caracter opcao
+	
+	funcao inicio()
+	{
+		escreva("Digite uma letra:\n")
+		leia(opcao)
+
+		escolha(opcao) {
+			caso 'a':
+				escreva("Você digitou a letra a\n")
+				pare
+			caso 'b':
+				escreva("Você digitou a letra b\n")
+				pare
+		         
+		     caso contrario:
+				escreva("Letra errada!!!\n")			
+		}
+	}
+}
