@@ -1,0 +1,32 @@
+
+	caracter menu
+	cadeia nome, cpf, endreco
+	 
+	
+	funcao inicio()
+	{
+		nome ="matheus"
+		cpf = "50533558867"
+		endreco = "rua das lampada"
+	
+		
+		escreva("Escolha uma opção:\n")
+		escreva("1. consulta nome\n")
+		escreva("2. consulta cpf \n")
+		escreva("3. consulta endreço\n")
+		leia(menu)
+		limpa()
+
+			escolha(menu) {
+				caso '1' :
+					escreva("nome: " + nome + "\n")
+					pare
+			    caso '2' :
+					escreva("CPF: " + cpf +"\n")	
+					pare
+				caso '3':
+					escreva("Endreço: "+ endreco + "\n")
+					pare
+				caso contrario:
+				escreva("opção incorreta.\n")   	 					
+			}
