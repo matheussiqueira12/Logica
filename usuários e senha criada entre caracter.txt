@@ -1,0 +1,20 @@
+programa
+{
+ inclua biblioteca Texto --> t
+ cadeia usuario,senha
+ inteiro compr 
+	
+	funcao inicio()
+	{
+		
+		escreva("Digite o nome de usuário desejado:\n")
+		leia(usuario)
+		escreva("Digite uma senha entre 8 e 12 caracteres:\n")
+		leia(senha)
+		compr = t.numero_caracteres(senha)
+		se ( (compr >=8) e ( compr <=12)) {
+			escreva("usário " + usuario + "criando com sucesso")	
+		}
+		senao{
+			escreva("\nSenha Inválida. Deve ter entre 8 e 12 caracteres")	
+		}
