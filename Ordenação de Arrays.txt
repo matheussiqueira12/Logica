@@ -1,0 +1,23 @@
+inteiro vetor[3]
+inteiro aux, ContA , ContB, cont,Compr
+	
+	funcao inicio()
+	{
+		//inserir dados no vetor
+		para(cont=0; cont <=2; cont++) {
+			escreva("Entre com um número:")
+			leia(vetor[cont])
+		}
+		//ordenação do vetor
+		para(ContA = 0; ContA <=2; ContA++) {
+			para(ContB= ContA +1; ContB <=2; ContB++) {
+				se(vetor[ContA] > vetor [ContB]) {
+					aux=vetor[ContB]
+					vetor[ContB]= vetor[ContA]
+					vetor[ContA]=aux
+				}
+			}
+		}
+		//exibir resultados na tela
+		para(cont=0; cont <=2; cont++) {
+			escreva(vetor[cont]+ " ")
